@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  marked:
+    specifier: ^5.0.2
+    version: 5.0.2
+
 devDependencies:
   '@sveltejs/vite-plugin-svelte':
     specifier: ^2.2.0
@@ -525,6 +530,12 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
+
+  /marked@5.0.2:
+    resolution: {integrity: sha512-TXksm9GwqXCRNbFUZmMtqNLvy3K2cQHuWmyBDLOrY1e6i9UvZpOTJXoz7fBjYkJkaUFzV9hBFxMuZSyQt8R6KQ==}
+    engines: {node: '>= 18'}
+    hasBin: true
+    dev: false
 
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}

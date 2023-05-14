@@ -41,10 +41,13 @@ h1 {
 }
 
 #app {
+  display: grid; /* Note: In browsers that support the multi-keyword syntax, if no inner value is specified, it will default to flow. If no outer value is specified, the principal box will have an outer display type of block. 
+                             If you set 'inherit' will use flex inherited from body, so set grid or block to see easily */                             
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
+  overflow: hidden;
 }
 
 button {

@@ -25,6 +25,19 @@
 	import T23_Events_EventForwarding from './23.Events-EventForwarding.svelte'
 	import T24_Events_DOMEventForwarding from './24.Events-DOMEventForwarding.svelte'
 	import T25_Bindings_TextInputs from './25.Bindings-TextInputs.svelte'
+	import T26_Bindings_NumericInputs from './26.Bindings-NumericInputs.svelte'
+	import T27_Bindings_CheckboxInputs from './27.Bindings-CheckboxInputs.svelte'
+	import T28_Bindings_GroupInputs from './28.Bindings-GroupInputs.svelte'
+	import T29_Bindings_TextareaInputs from './29.Binding-TextareaInputs.svelte'
+	import T30_Bindings_SelectBindings from './30.Bindings-SelectBindings.svelte'
+	import T31_Bindings_SelectMultiple from './31.Bindings-SelectMultiple.svelte'
+	import T32_Bindings_ContenteditableBindings from './32.Bindings-ContenteditableBindings.svelte'
+	import T33_Bindings_EachBlockBindings from './33.Bindings-EachBlockBindings.svelte'
+	import T34_Bindings_MediaElements from './34.Bindings-MediaElements.svelte'
+	import T35_Bindings_Demensions from './35.Bindings-Demensions.svelte'
+	import T36_Bindings_This from './36.Bindings-This.svelte'
+	import T37_Bindings_ComponentBindings from './37.Bindings-ComponentBindings.svelte'
+	import T38_Bindings_BindingToComponentInstances from './38.Bindings-BindingToComponentInstances.svelte'
 
 </script>
 
@@ -53,3 +66,16 @@
 <T23_Events_EventForwarding/>
 <T24_Events_DOMEventForwarding/><p></p>
 <T25_Bindings_TextInputs/>
+<T26_Bindings_NumericInputs/>
+<T27_Bindings_CheckboxInputs/>
+<T28_Bindings_GroupInputs/>
+<T29_Bindings_TextareaInputs/>
+<T30_Bindings_SelectBindings/>
+<T31_Bindings_SelectMultiple/>
+<T32_Bindings_ContenteditableBindings/>
+<T33_Bindings_EachBlockBindings/>
+<T34_Bindings_MediaElements/>
+<T35_Bindings_Demensions/>
+<T36_Bindings_This/>
+<T37_Bindings_ComponentBindings/>
+<T38_Bindings_BindingToComponentInstances/>
